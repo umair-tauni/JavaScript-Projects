@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(68, 66, 73);
+}
+
+.srh {
+  display: flex;
+  margin-top: 11px;
+}
+
+input {
+  width: 200px;
+  padding: 16px;
+  border-radius: 16px;
+  height: 8px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  background-color: rgb(197, 231, 243);
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: rgb(173, 221, 236);
+  margin-inline: 7px;
+}
+
+button:hover {
+  background-color: rgb(133, 212, 238);
+}
+
+::placeholder {
+  color: black;
+}
+
+#city {
+  margin-top: 35px;
+  font-size: 33px;
+}
+
+#temp {
+  font-size: 35px;
+  margin-top: -13px;
+}
+
+#type {
+  font-size: 26px;
+  margin-top: -33px;
+}
+
+.container {
+  width: 300px;
+  padding: 22px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2%;
+  background-color: #fff;
+}
+
+img {
+  width: 210px;
+  margin-top: -22px;
+}
